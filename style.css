@@ -1,135 +1,133 @@
 body {
-    font-family: 'Segoe UI', sans-serif;
-    /* font-size: 1.2rem; */
-    margin: 0;
-    background: #f5f7fa;
-    color: #333;
-  }
-  
-  .header {
-    background: #4a90e2;
-    color: white;
-    text-align: center;
-    padding: 2rem 1rem;
-  }
+  font-family: 'Segoe UI', sans-serif;
+  /* font-size: 1.2rem; */
+  margin: 0;
+  background: #f5f7fa;
+  color: #333;
+}
 
-  .profile-img-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-  }
-  
-  .profile-img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  
-  .container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 2rem;
-  }
-  
-  h2 {
-    color: #4a90e2;
-    margin-top: 2rem;
-  }
-  
-  .project-grid, .extras-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
-  }
-  
-  .project-card {
-  background: white;
-  padding: 0.75rem; /* reduced from 1rem */
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+.header {
+  background: #4a90e2;
+  color: white;
   text-align: center;
-  font-size: 0.9rem; /* slightly smaller font */
+  padding: 2rem 1rem;
+}
+
+.profile-img-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h2 {
+  color: #4a90e2;
+  margin-top: 2rem;
+}
+
+.project-grid,
+.extras-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  background: white;
+  padding: 0.75rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 .project-card img {
   width: 100%;
-  height: 150px; /* fix height for more uniform cards */
-  object-fit: cover; /* crop image to fill */
+  height: 150px;
+  object-fit: cover;
   border-radius: 8px;
   margin-bottom: 0.5rem;
 }
 
-  .project-status {
-    display: inline-block;
-    padding: 0.25rem 0.75rem;
-    border-radius: 999px;
-    font-size: 0.85rem;
-    font-weight: bold;
-    margin-top: 0.5rem;
-  }
+.project-status {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
 
-  .project-status.complete {
-    background-color: #d4edda;
-    color: #155724;
-  }
+.project-status.complete {
+  background-color: #d4edda;
+  color: #155724;
+}
 
-  .project-status.in-progress {
-    background-color: #f0f0f0;
-    color: #333;
-  }
+.project-status.in-progress {
+  background-color: #f0f0f0;
+  color: #333;
+}
 
-  .project-title {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
-  .skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    list-style: none;
-    padding: 0;
-  }
-  
-  .skills-list li {
-    background: #e0ecff;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-  }
-  
-  .timeline {
-    border-left: 3px solid #4a90e2;
-    padding-left: 20px;
-    margin-left: 10px;
-  }
-  
-  .timeline-item {
-    margin-bottom: 2rem;
-    position: relative;
-  }
-  
-  .timeline-date {
-    font-weight: bold;
-    color: #4a90e2;
-  }
-  
-  .timeline-content {
-    margin-left: 10px;
-  }
-  
-  /* And update your CSS to style this */
+.project-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #e0ecff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.timeline {
+  border-left: 3px solid #4a90e2;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+.timeline-item {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #4a90e2;
+}
+
+.timeline-content {
+  margin-left: 10px;
+}
 
 .package-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
-    margin-top: 1rem;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
 
 .package-card {
   background: white;
@@ -157,12 +155,37 @@ body {
   font-size: 0.95rem;
   line-height: 1.5;
 }
-  
-  footer {
-    background: #eaeaea;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 3rem;
-  }
-  
-  
+
+footer {
+  background: #eaeaea;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #4a90e2;
+  color: white;
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
