@@ -135,6 +135,51 @@ const projectAnalytics = {
     follows: "11K",
     "follows change": "+100%"
   },
+  project8: {
+    views: "62.8K",
+    reach: "26.7K",
+    "reach change": "+78.3K%",
+    "content interactions": "632",
+    "content change": "+100%",
+    follows: "311",
+    "follows change": "+975%"
+  },
+  project9: {
+    views: "8K",
+    reach: "98.9K",
+    "reach change": "+100%",
+    "content interactions": "821",
+    "content change": "+100%",
+    follows: "6.8K",
+    "follows change": "+5%"
+  },
+  project11: {
+    views: "457.4K",
+    reach: "565.8K",
+    "reach change": "+100%",
+    "content interactions": "19.7K",
+    "content change": "+100%",
+    follows: "11K",
+    "follows change": "-76.2%"
+  },
+  project13: {
+    views: "356.4K",
+    reach: "473.2K",
+    "reach change": "+100%",
+    "content interactions": "1.2K",
+    "content change": "+100%",
+    follows: "1.2K",
+    "follows change": "+100%"
+  },
+  project15: {
+    views: "20.1K",
+    reach: "278.6K",
+    "reach change": "+100%",
+    "content interactions": "9.6K",
+    "content change": "+100%",
+    follows: "4.5K",
+    "follows change": "+50%"
+  },
 };
 
 function openProjectAnalytics(card) {
